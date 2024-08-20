@@ -265,6 +265,9 @@ input {
   .menu-close-header-btn {
     display: none;
   }
+  .container-mob {
+    display: none;
+  }
   .header-all .container {
     align-items: center;
   }
