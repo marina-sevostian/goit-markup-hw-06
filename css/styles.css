@@ -65,6 +65,7 @@ input {
 .header-all .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .menu {
   display: none;
@@ -265,16 +266,16 @@ input {
   .menu-close-header-btn {
     display: none;
   }
-  /* .container-mob {
-    display: none;
-  } */
-  .header-all .container {
-    align-items: center;
+  .header-all {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .nav-logo {
+    margin-right: 120px;
   }
   .menu {
     display: flex;
     gap: 40px;
-    margin-left: 120px;
   }
   .nav-all {
     display: flex;
@@ -360,7 +361,11 @@ input {
     padding-top: 0;
   }
 }
-
+@media (min-width: 1158px) {
+  .address-link {
+    flex-direction: row;
+  }
+}
 /* #endregion header */
 
 /* #region hero-section */
